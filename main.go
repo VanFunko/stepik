@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Print("It is 3 hours 40 minutes.")
+	var n, res int
+	fmt.Scan(&n)
+	res = (n-1)%9 + 1
+
+	fmt.Println(res)
+	fmt.Println("nu nah")
 }
